@@ -1,5 +1,5 @@
 .title {
-    font-size: 96px;
+    font-size: 72px;
 }
 .start-btn {
     font-size: 54px;
@@ -11,4 +11,8 @@
 
 .question-btn {
     width: 400px;
+}
+
+#question-text {
+	min-height: 150px;
 }
