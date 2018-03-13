@@ -1,632 +1,722 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Society should help people who cannot take care of themselves",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 5,
+            "sovereignty": 5
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "People should use intentional planning to allocate resources to help the majority.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
+        }
+    },
+    {
+        "question": "Economies should be left unregulated, so that more jobs can be created.",
+        "effect": {
+            "hierarchy": -10,
+            "power": 0,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
         "question": "The freer the markets, the freer the people.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "If someone gets into debt, its their own fault.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": -10,
+            "power": 0,
+            "progress": -5,
+            "sovereignty": 0
         }
     },
     {
         "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "International trade is beneficial.",
+        "question": "Richer countries should be able to buy land in poorer countries.",
         "effect": {
-            "econ": -5,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "hierarchy": -5,
+            "power": 5,
+            "progress": 0,
+            "sovereignty": 10
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "Borders need to be protected to prevent illegal aliens from entering.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
+            "hierarchy": -5,
+            "power": 5,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "It is okay for someone to own more than 10x the average citizen.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -5
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "Private charity will always do a better job of uplifting people than public aid.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 5
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "The rich should be forced to give up more than they need, in order to help poor people.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -5
+            "hierarchy": 10,
+            "power": 5,
+            "progress": 5,
+            "sovereignty": 5
+        }
+    },
+    {
+        "question": "Wealthy families should have their wealth left alone.",
+        "effect": {
+            "hierarchy": -10,
+            "power": 0,
+            "progress": -5,
+            "sovereignty": 0
         }
     },
     {
         "question": "Public utilities like roads and electricity should be publicly owned.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Excessive government intervention is a threat to the economy.",
+        "question": "Individual liberty is more important than the community.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": -5
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "Everyone should have free health care, regardless of income.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 5,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        "question": "It is okay to pay for better schooling than the average, if you have the money.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "Productive facilities should belong to the workers who use them.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "The United Nations should be abolished.",
+        "question": "Austerity measures are sometimes necessary in order to pay back debts that a country has accumulated.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "hierarchy": -10,
+            "power": 0,
+            "progress": -5,
+            "sovereignty": 10
         }
     },
     {
         "question": "Military action by our nation is often necessary to protect it.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
+            "hierarchy": 0,
+            "power": 10,
+            "progress": 0,
+            "sovereignty": 10
         }
     },
     {
-        "question": "I support regional unions, such as the European Union.",
+        "question": "A poorer country should not touch property owned by foreigners.",
         "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 5
+            "hierarchy": -5,
+            "power": -5,
+            "progress": -5,
+            "sovereignty": 0
         }
     },
     {
-        "question": "It is important to maintain our national sovereignty.",
+        "question": "An autonomous region shouldn't interfere with other areas, regardless of how the other area treats its citizens.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "hierarchy": 0,
+            "power": -5,
+            "progress": 0,
+            "sovereignty": -10
         }
     },
     {
-        "question": "A united world government would be beneficial to mankind.",
+        "question": "We should give military and economic aid to poorer countries.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": 0,
+            "power": 10,
+            "progress": 0,
+            "sovereignty": 10
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "Parliamentary democracy is the best form of government.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": -5,
+            "power": 0,
+            "progress": -5,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "Violence (or self-defense) is often necessary to prevent harm.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
+            "hierarchy": 0,
+            "power": 10,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        "question": "Some people are superior to others.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
+            "hierarchy": -10,
+            "power": 0,
+            "progress": -5,
+            "sovereignty": 0
+        }
+    },
+    {
+        "question": "We must use armed force to defend our interests.",
+        "effect": {
+            "hierarchy": 0,
+            "power": 10,
+            "progress": 0,
+            "sovereignty": 0
+        }
+    },
+    {
+        "question": "Being Trans is a mental illness.",
+        "effect": {
+            "hierarchy": 0,
+            "power": 0,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
         "question": "International aid is a waste of money.",
         "effect": {
-            "econ": -5,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": -5,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": -10
         }
     },
     {
-        "question": "My nation is great.",
+        "question": "Former rural workers in the global south are far better off now that there are more factories in the cities to employ them.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 5
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
+        "question": "Society is overall a harmful thing, and we should go back to a simpler time.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        "question": "Wealth should be redistributed to those who need it.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 0
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 5,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "question": "When protesting, violence is not acceptable.",
         "effect": {
-            "econ": 0,
-            "dipl": 5,
-            "govt": -5,
-            "scty": 0
+            "hierarchy": 0,
+            "power": -10,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
+        "question": "Decentralized communities, that promise to not intervene in each other's affaris, is best.",
         "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -10
+            "hierarchy": 0,
+            "power": -5,
+            "progress": 0,
+            "sovereignty": -10
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
+        "question": "Poorer people should be liberated in every country.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
+            "hierarchy": 5,
+            "power": 5,
+            "progress": 0,
+            "sovereignty": 10
         }
     },
     {
-        "question": "It is very important to maintain law and order.",
+        "question": "Laws should never be broken.",
         "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -5
+            "hierarchy": 0,
+            "power": -5,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
         "question": "The general populace makes poor decisions.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
+        }
+    },
+    {
+        "question": "The best society is one ruled by an enlightened minority.",
+        "effect": {
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
         "question": "Victimless crimes (such as drug use) should not be crimes at all.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "question": "Any act of violence should be considered terrorism.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "hierarchy": 0,
+            "power": -10,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
+        "question": "One should defend revolutionary gains by any means necessary.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "hierarchy": 5,
+            "power": 10,
+            "progress": 5,
+            "sovereignty": 5
         }
     },
     {
-        "question": "The very existence of the state is a threat to our liberty.",
+        "question": "We should leave other countries alone, even if they are oppressing their citizens.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "hierarchy": 0,
+            "power": -5,
+            "progress": 0,
+            "sovereignty": -10
         }
     },
     {
-        "question": "Regardless of political opinions, it is important to side with your country.",
+        "question": "Society is a tree, that evolves slowly. It should never be cut down.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -5
+            "hierarchy": 0,
+            "power": -5,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "No authority should be left unquestioned.",
+        "question": "Groups of people should use unlimited authority to further their goals.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 5
+            "hierarchy": 0,
+            "power": 10,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
         "question": "A hierarchical state is best.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "question": "Women are on average paid less than men, and this should be corrected.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "The stronger the leadership, the better.",
+        "question": "It is okay to use military force against regressive Islamic countries.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
+            "hierarchy": 0,
+            "power": 5,
+            "progress": -10,
+            "sovereignty": 5
+        }
+    },
+    {
+        "question": "Democracy is better than rule by few.",
+        "effect": {
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
+        }
+    },
+    {
+        "question": "A society should focus on the happiness of individuals, not groups.",
+        "effect": {
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
         "question": "Democracy is more than a decision-making process.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Environmental regulations are essential.",
+        "question": "It is absolutely necessary to protect the environment.",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
         "question": "A better world will come from automation, science, and technology.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Children should be educated in religious or traditional values.",
+        "question": "Everyone in a society should have an equally high standard of education.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Traditions are of no value on their own.",
+        "question": "Tradition is important.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Religion should play a role in government.",
+        "question": "We should tolerate the speech of nazis, and debate them in the marketplace of ideas, but never use violence.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
+            "hierarchy": 0,
+            "power": -10,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
+        "question": "Some of the product of humanity's work should go towards helping sick people.",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 5,
+            "sovereignty": 0
+        }
+    },
+    {
+        "question": "It is okay for billionaires to be where they're at, their entrepreneurial genius is the reason for their success.",
+        "effect": {
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
         "question": "Climate change is currently one of the greatest threats to our way of life.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "It is important that we work as a united world to combat climate change.",
+        "question": "We should take from the rich and give to the poor.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 10,
+            "power": 5,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
         "question": "Society was better many years ago than it is now.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "It is important that we maintain the traditions of our past.",
+        "question": "Isolationism is the best policy in war time.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": -10
         }
     },
     {
         "question": "It is important that we think in the long term, beyond our lifespans.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Reason is more important than maintaining our culture.",
+        "question": "Western nations should intervene in the affairs of other countries.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": 0,
+            "power": 5,
+            "progress": 0,
+            "sovereignty": 10
         }
     },
     {
         "question": "Drug use should be legalized or decriminalized.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 2
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
         "question": "Same-sex marriage should be legal.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
         "question": "No cultures are superior to others.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 10
+            "hierarchy": 5,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Sex outside marriage is immoral.",
+        "question": "Everything is a social construct, we should simply do what is best for ourselves.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
         "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
         "question": "Abortion should be prohibited in most or all cases.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
         "question": "Gun ownership should be prohibited for those without a valid reason.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": -10,
-            "scty": 0
+            "hierarchy": 0,
+            "power": -10,
+            "progress": -5,
+            "sovereignty": 0
         }
     },
     {
         "question": "I support single-payer, universal healthcare.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 5,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Prostitution should be illegal.",
+        "question": "Art majors in college should have taken another major if they didn't want to have economic problems.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Maintaining family values is essential.",
+        "question": "Society is based on classes with contradictory interests: the exploiters, and exploited.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 5,
+            "sovereignty": 0
         }
     },
     {
-        "question": "To chase progress at all costs is dangerous.",
+        "question": "If a town is established in which rape is legal, it is voluntary to live there.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "hierarchy": -5,
+            "power": -10,
+            "progress": -10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Genetic modification is a force for good, even on humans.",
+        "question": "Sweatshops are better for poorer people than working in the countryside.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "hierarchy": -10,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 5
         }
     },
     {
         "question": "We should open our borders to immigration.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
+            "hierarchy": 5,
+            "power": 0,
+            "progress": 10,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Governments should be as concerned about foreign citizens as they are about those within their borders.",
+        "question": "Women's liberation should be a global priority: and we should prevent the oppression of women by force.",
         "effect": {
-            "econ": 10,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
+            "hierarchy": 0,
+            "power": 5,
+            "progress": 5,
+            "sovereignty": 10
         }
     },
     {
         "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
         "effect": {
-            "econ": 10,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 10
+            "hierarchy": 10,
+            "power": 0,
+            "progress": 5,
+            "sovereignty": 0
         }
     },
     {
-        "question": "It is important that we further my group's goals above all others.",
+        "question": "Organization is necessary to further our goals.",
         "effect": {
-            "econ": -10,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -10
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 10
+        }
+    },
+    {
+        "question": "Organizations should never prevent me from doing what I want to do.",
+        "effect": {
+            "hierarchy": -5,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": -10
+        }
+    },
+    {
+        "question": "We've passed the golden age.",
+        "effect": {
+            "hierarchy": 0,
+            "power": 0,
+            "progress": -10,
+            "sovereignty": 0
         }
     }
 ];

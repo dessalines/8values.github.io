@@ -1,470 +1,262 @@
 ideologies = [
     {
         "name": "Anarcho-Communism",
+        "link":  "https://en.wikipedia.org/wiki/Anarcho-communism",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 90
-        }
-    },
-    {
-        "name": "Libertarian Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Trotskyism",
-        "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Marxism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
-        }
-    },
-    {
-        "name": "De Leonism",
-        "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Leninism",
-        "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Stalinism/Maoism",
-        "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Religious Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "State Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Theocratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Religious Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Democratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Revolutionary Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarian Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Anarcho-Syndicalism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Left-Wing Populism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Theocratic Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Social Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Christian Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 40,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Social Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Progressivism",
-        "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
-        }
-    },
-    {
-        "name": "Anarcho-Mutualism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
-        }
-    },
-    {
-        "name": "National Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Global Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Technocracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Centrist",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Liberalism",
-        "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Religious Anarchism",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 0,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Right-Wing Populism",
-        "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Moderate Conservatism",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Reactionary",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
-        }
-    },
-    {
-        "name": "Social Libertarianism",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarianism",
-        "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Anarcho-Egoism",
-        "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Nazism",
-        "stats": {
-            "econ": 40,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Autocracy",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Fascism",
-        "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Capitalist Fascism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Conservatism",
-        "stats": {
-            "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Neo-Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Classical Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Authoritarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
-        }
-    },
-    {
-        "name": "State Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Neo-Conservatism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Fundamentalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Libertarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
+            "hierarchy": 100,
+            "power": 80,
+            "progress": 100,
+            "sovereignty": 20
         }
     },
     {
         "name": "Market Anarchism",
+        "link":  "https://en.wikipedia.org/wiki/Left-wing_market_anarchism",
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
+            "hierarchy": 60,
+            "power": 0,
+            "progress": 100,
+            "sovereignty": 0
         }
     },
     {
-        "name": "Objectivism",
+        "name": "Anarcho-Primitivism",
+        "link":  "https://en.wikipedia.org/wiki/Anarcho-primitivism",
         "stats": {
-            "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 40
+            "hierarchy": 100,
+            "power": 50,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "name": "Totalitarian Capitalism",
+        "name": "Mutualism",
+        "link": "https://en.wikipedia.org/wiki/Mutualism_(economic_theory)",
         "stats": {
-            "econ": 0,
-            "dipl": 30,
-            "govt": 0,
-            "scty": 50
+            "hierarchy": 80,
+            "power": 50,
+            "progress": 100,
+            "sovereignty": 10
         }
     },
     {
-        "name": "Ultra-Capitalism",
+        "name": "Egoism",
+        "link": "https://en.wikipedia.org/wiki/Egoist_anarchism",
         "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 50
+            "hierarchy": 0,
+            "power": 100,
+            "progress": 100,
+            "sovereignty": 0
+        }
+    },
+    {
+        "name": "Anarcho-Syndicalism",
+        "link": "https://en.wikipedia.org/wiki/Anarcho-syndicalism",
+        "stats": {
+            "hierarchy": 100,
+            "power": 80,
+            "progress": 100,
+            "sovereignty": 70
+        }
+    },
+    {
+        "name": "Anarcho-Pacifism",
+        "link": "https://en.wikipedia.org/wiki/Anarcho-pacifism",
+        "stats": {
+            "hierarchy": 50,
+            "power": 0,
+            "progress": 100,
+            "sovereignty": 50
+        }
+    },
+    {
+        "name": "Radical Centrist",
+        "link": "https://en.wikipedia.org/wiki/Radical_centrism",
+        "stats": {
+            "hierarchy": 50,
+            "power": 0,
+            "progress": 50,
+            "sovereignty": 50
+        }
+    },
+    {
+        "name": "Social Democracy",
+        "link": "https://en.wikipedia.org/wiki/Social_democracy",
+        "stats": {
+            "hierarchy": 50,
+            "power": 0,
+            "progress": 80,
+            "sovereignty": 50
+        }
+    },
+    {
+        "name": "Right-Libertarianism",
+        "link": "https://en.wikipedia.org/wiki/Right-libertarianism",
+        "stats": {
+            "hierarchy": 0,
+            "power": 40,
+            "progress": 20,
+            "sovereignty": 0
         }
     },
     {
         "name": "Anarcho-Capitalism",
+        "link": "https://en.wikipedia.org/wiki/Anarcho-capitalism",
         "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
+            "hierarchy": 0,
+            "power": 70,
+            "progress": 0,
+            "sovereignty": 20
         }
-    }
+    },
+    {
+        "name": "Libertarian Socialism",
+        "link": "https://en.wikipedia.org/wiki/Libertarian_socialism",
+        "stats": {
+            "hierarchy": 100,
+            "power": 50,
+            "progress": 80,
+            "sovereignty": 0
+        }
+    },
+    {
+        "name": "Minarchism",
+        "link": "https://en.wikipedia.org/wiki/Minarchism",
+        "stats": {
+            "hierarchy": 0,
+            "power": 60,
+            "progress": 0,
+            "sovereignty": 20
+        }
+    },
+    {
+        "name": "Voluntaryism",
+        "link": "https://en.wikipedia.org/wiki/Voluntaryism",
+        "stats": {
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 50,
+            "sovereignty": 20
+        }
+    },
+    {
+        "name": "Neoliberalism",
+        "link": "https://en.wikipedia.org/wiki/Neoliberalism",
+        "stats": {
+            "hierarchy": 0,
+            "power": 50,
+            "progress": 50,
+            "sovereignty": 80
+        }
+    },
+    {
+        "name": "Classical Liberalism",
+        "link": "https://en.wikipedia.org/wiki/Classical_liberalism",
+        "stats": {
+            "hierarchy": 0,
+            "power": 20,
+            "progress": 50,
+            "sovereignty": 20
+        }
+    },
+    {
+        "name": "Conservatism",
+        "link": "https://en.wikipedia.org/wiki/Conservatism",
+        "stats": {
+            "hierarchy": 0,
+            "power": 70,
+            "progress": 0,
+            "sovereignty": 50
+        }
+    },
+    {
+        "name": "Fascism",
+        "link": "https://en.wikipedia.org/wiki/Fascism",
+        "stats": {
+            "hierarchy": 0,
+            "power": 100,
+            "progress": 0,
+            "sovereignty": 80
+        }
+    },
+    {
+        "name": "Marxism / Leninism",
+        "link": "https://en.wikipedia.org/wiki/Marxism-Leninism",
+        "stats": {
+            "hierarchy": 100,
+            "power": 100,
+            "progress": 100,
+            "sovereignty": 100
+        }
+    },
+    {
+        "name": "Juche",
+        "link": "https://en.wikipedia.org/wiki/Juche",
+        "stats": {
+            "hierarchy": 70,
+            "power": 100,
+            "progress": 100,
+            "sovereignty": 60
+        }
+    },
+    {
+        "name": "Luxemburgism",
+        "link": "https://en.wikipedia.org/wiki/Luxemburgism",
+        "stats": {
+            "hierarchy": 100,
+            "power": 100,
+            "progress": 100,
+            "sovereignty": 60
+        }
+    },
+    {
+        "name": "Left-Communism",
+        "link": "https://en.wikipedia.org/wiki/Left_communism",
+        "stats": {
+            "hierarchy": 100,
+            "power": 60,
+            "progress": 100,
+            "sovereignty": 40
+        }
+    },
+    {
+        "name": "Council Communism",
+        "link": "https://en.wikipedia.org/wiki/Council_communism",
+        "stats": {
+            "hierarchy": 100,
+            "power": 50,
+            "progress": 100,
+            "sovereignty": 10
+        }
+    },
+    {
+        "name": "Communalism",
+        "link": "https://en.wikipedia.org/wiki/Communalism",
+        "stats": {
+            "hierarchy": 100,
+            "power": 30,
+            "progress": 100,
+            "sovereignty": 40
+        }
+    },
+    {
+        "name": "Titoism",
+        "link": "https://en.wikipedia.org/wiki/Titoism",
+        "stats": {
+            "hierarchy": 90,
+            "power": 100,
+            "progress": 100,
+            "sovereignty": 70
+        }
+    },
+    {
+        "name": "Dengism",
+        "link": "https://en.wikipedia.org/wiki/Socialism_with_Chinese_characteristics",
+        "stats": {
+            "hierarchy": 70,
+            "power": 100,
+            "progress": 80,
+            "sovereignty": 70
+        }
+    },    
 ];
