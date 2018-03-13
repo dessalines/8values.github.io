@@ -1,6 +1,6 @@
 <head>
   <link href="https://bootswatch.com/4/minty/bootstrap.min.css" rel="stylesheet">
-  <link href="https://github.com/dessalines/8values.github.io/raw/master/style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
   <title>8 Traits</title>
   <link rel="icon" type="x-icon" href="icon.png">
   <link rel="shortcut icon" type="x-icon" href="icon.png">
@@ -45,6 +45,13 @@
     max_progress += Math.abs(questions[i].effect.progress)
     max_sovereignty += Math.abs(questions[i].effect.sovereignty)
   }
+
+  console.log(
+    "max_hierarchy: " + max_hierarchy + "\n" +
+    "max_power: " + max_power + "\n" +
+    "max_progress: " + max_progress + "\n" +
+    "max_sovereignty: " + max_sovereignty + "\n");
+
 
   function init_question() {
     document.getElementById("question-text").innerHTML = questions[qn].question;

@@ -2,10 +2,10 @@ questions = [
     {
         "question": "Society should help people who cannot take care of themselves",
         "effect": {
-            "hierarchy": 10,
+            "hierarchy": 0,
             "power": 0,
-            "progress": 5,
-            "sovereignty": 5
+            "progress": 0,
+            "sovereignty": 10
         }
     },
     {
@@ -22,7 +22,7 @@ questions = [
         "effect": {
             "hierarchy": -10,
             "power": 0,
-            "progress": -10,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -40,7 +40,7 @@ questions = [
         "effect": {
             "hierarchy": -10,
             "power": 0,
-            "progress": -5,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -56,19 +56,19 @@ questions = [
     {
         "question": "Richer countries should be able to buy land in poorer countries.",
         "effect": {
-            "hierarchy": -5,
-            "power": 5,
+            "hierarchy": -10,
+            "power": 0,
             "progress": 0,
-            "sovereignty": 10
+            "sovereignty": 0
         }
     },
     {
         "question": "Borders need to be protected to prevent illegal aliens from entering.",
         "effect": {
-            "hierarchy": -5,
-            "power": 5,
-            "progress": -10,
-            "sovereignty": 0
+            "hierarchy": 0,
+            "power": 0,
+            "progress": 0,
+            "sovereignty": -10
         }
     },
     {
@@ -86,24 +86,24 @@ questions = [
             "hierarchy": -10,
             "power": 0,
             "progress": 0,
-            "sovereignty": 5
+            "sovereignty": 0
         }
     },
     {
         "question": "The rich should be forced to give up more than they need, in order to help poor people.",
         "effect": {
             "hierarchy": 10,
-            "power": 5,
-            "progress": 5,
-            "sovereignty": 5
+            "power": 0,
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
-        "question": "Wealthy families should have their wealth left alone.",
+        "question": "Police are necessary to enforce law and order.",
         "effect": {
-            "hierarchy": -10,
+            "hierarchy": 0,
             "power": 0,
-            "progress": -5,
+            "progress": -10,
             "sovereignty": 0
         }
     },
@@ -122,15 +122,15 @@ questions = [
             "hierarchy": -10,
             "power": 0,
             "progress": 0,
-            "sovereignty": -5
+            "sovereignty": 0
         }
     },
     {
         "question": "Everyone should have free health care, regardless of income.",
         "effect": {
-            "hierarchy": 10,
+            "hierarchy": 0,
             "power": 0,
-            "progress": 5,
+            "progress": 10,
             "sovereignty": 0
         }
     },
@@ -157,8 +157,8 @@ questions = [
         "effect": {
             "hierarchy": -10,
             "power": 0,
-            "progress": -5,
-            "sovereignty": 10
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
@@ -167,15 +167,15 @@ questions = [
             "hierarchy": 0,
             "power": 10,
             "progress": 0,
-            "sovereignty": 10
+            "sovereignty": 0
         }
     },
     {
         "question": "A poorer country should not touch property owned by foreigners.",
         "effect": {
-            "hierarchy": -5,
-            "power": -5,
-            "progress": -5,
+            "hierarchy": 0,
+            "power": -10,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -183,7 +183,7 @@ questions = [
         "question": "An autonomous region shouldn't interfere with other areas, regardless of how the other area treats its citizens.",
         "effect": {
             "hierarchy": 0,
-            "power": -5,
+            "power": 0,
             "progress": 0,
             "sovereignty": -10
         }
@@ -192,7 +192,7 @@ questions = [
         "question": "We should give military and economic aid to poorer countries.",
         "effect": {
             "hierarchy": 0,
-            "power": 10,
+            "power": 0,
             "progress": 0,
             "sovereignty": 10
         }
@@ -200,9 +200,9 @@ questions = [
     {
         "question": "Parliamentary democracy is the best form of government.",
         "effect": {
-            "hierarchy": -5,
+            "hierarchy": 0,
             "power": 0,
-            "progress": -5,
+            "progress": -10,
             "sovereignty": 0
         }
     },
@@ -220,7 +220,7 @@ questions = [
         "effect": {
             "hierarchy": -10,
             "power": 0,
-            "progress": -5,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -245,7 +245,7 @@ questions = [
     {
         "question": "International aid is a waste of money.",
         "effect": {
-            "hierarchy": -5,
+            "hierarchy": 0,
             "power": 0,
             "progress": 0,
             "sovereignty": -10
@@ -257,7 +257,7 @@ questions = [
             "hierarchy": -10,
             "power": 0,
             "progress": 0,
-            "sovereignty": 5
+            "sovereignty": 0
         }
     },
     {
@@ -274,7 +274,7 @@ questions = [
         "effect": {
             "hierarchy": 10,
             "power": 0,
-            "progress": 5,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -288,10 +288,10 @@ questions = [
         }
     },
     {
-        "question": "Decentralized communities, that promise to not intervene in each other's affaris, is best.",
+        "question": "Decentralized communities, that promise to not intervene in each other's affairs, is best.",
         "effect": {
             "hierarchy": 0,
-            "power": -5,
+            "power": 0,
             "progress": 0,
             "sovereignty": -10
         }
@@ -299,8 +299,8 @@ questions = [
     {
         "question": "Poorer people should be liberated in every country.",
         "effect": {
-            "hierarchy": 5,
-            "power": 5,
+            "hierarchy": 0,
+            "power": 0,
             "progress": 0,
             "sovereignty": 10
         }
@@ -309,7 +309,7 @@ questions = [
         "question": "Laws should never be broken.",
         "effect": {
             "hierarchy": 0,
-            "power": -5,
+            "power": 0,
             "progress": -10,
             "sovereignty": 0
         }
@@ -353,17 +353,17 @@ questions = [
     {
         "question": "One should defend revolutionary gains by any means necessary.",
         "effect": {
-            "hierarchy": 5,
+            "hierarchy": 0,
             "power": 10,
-            "progress": 5,
-            "sovereignty": 5
+            "progress": 0,
+            "sovereignty": 0
         }
     },
     {
         "question": "We should leave other countries alone, even if they are oppressing their citizens.",
         "effect": {
             "hierarchy": 0,
-            "power": -5,
+            "power": 0,
             "progress": 0,
             "sovereignty": -10
         }
@@ -372,7 +372,7 @@ questions = [
         "question": "Society is a tree, that evolves slowly. It should never be cut down.",
         "effect": {
             "hierarchy": 0,
-            "power": -5,
+            "power": 0,
             "progress": -10,
             "sovereignty": 0
         }
@@ -408,9 +408,9 @@ questions = [
         "question": "It is okay to use military force against regressive Islamic countries.",
         "effect": {
             "hierarchy": 0,
-            "power": 5,
+            "power": 0,
             "progress": -10,
-            "sovereignty": 5
+            "sovereignty": 0
         }
     },
     {
@@ -432,11 +432,11 @@ questions = [
         }
     },
     {
-        "question": "Democracy is more than a decision-making process.",
+        "question": "Gun control is necessary in the modern world.",
         "effect": {
             "hierarchy": 0,
-            "power": 0,
-            "progress": 10,
+            "power": -10,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -490,7 +490,7 @@ questions = [
         "effect": {
             "hierarchy": 10,
             "power": 0,
-            "progress": 5,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -516,7 +516,7 @@ questions = [
         "question": "We should take from the rich and give to the poor.",
         "effect": {
             "hierarchy": 10,
-            "power": 5,
+            "power": 0,
             "progress": 0,
             "sovereignty": 0
         }
@@ -549,10 +549,10 @@ questions = [
         }
     },
     {
-        "question": "Western nations should intervene in the affairs of other countries.",
+        "question": "It is sometimes okay to intervene militarily in another country.",
         "effect": {
             "hierarchy": 0,
-            "power": 5,
+            "power": 0,
             "progress": 0,
             "sovereignty": 10
         }
@@ -578,7 +578,7 @@ questions = [
     {
         "question": "No cultures are superior to others.",
         "effect": {
-            "hierarchy": 5,
+            "hierarchy": 0,
             "power": 0,
             "progress": 10,
             "sovereignty": 0
@@ -616,7 +616,7 @@ questions = [
         "effect": {
             "hierarchy": 0,
             "power": -10,
-            "progress": -5,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -625,7 +625,7 @@ questions = [
         "effect": {
             "hierarchy": 10,
             "power": 0,
-            "progress": 5,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -643,15 +643,15 @@ questions = [
         "effect": {
             "hierarchy": 10,
             "power": 0,
-            "progress": 5,
+            "progress": 0,
             "sovereignty": 0
         }
     },
     {
-        "question": "If a town is established in which rape is legal, it is voluntary to live there.",
+        "question": "If a town is established in which coercion is legal, it is voluntary to live there.",
         "effect": {
-            "hierarchy": -5,
-            "power": -10,
+            "hierarchy": 0,
+            "power": 0,
             "progress": -10,
             "sovereignty": 0
         }
@@ -662,24 +662,24 @@ questions = [
             "hierarchy": -10,
             "power": 0,
             "progress": 0,
-            "sovereignty": 5
+            "sovereignty": 0
         }
     },
     {
         "question": "We should open our borders to immigration.",
         "effect": {
-            "hierarchy": 5,
+            "hierarchy": 0,
             "power": 0,
             "progress": 10,
             "sovereignty": 0
         }
     },
     {
-        "question": "Women's liberation should be a global priority: and we should prevent the oppression of women by force.",
+        "question": "Women's liberation should be a global priority; we should prevent the oppression of women by force.",
         "effect": {
             "hierarchy": 0,
-            "power": 5,
-            "progress": 5,
+            "power": 0,
+            "progress": 0,
             "sovereignty": 10
         }
     },
@@ -688,7 +688,7 @@ questions = [
         "effect": {
             "hierarchy": 10,
             "power": 0,
-            "progress": 5,
+            "progress": 0,
             "sovereignty": 0
         }
     },
@@ -704,7 +704,7 @@ questions = [
     {
         "question": "Organizations should never prevent me from doing what I want to do.",
         "effect": {
-            "hierarchy": -5,
+            "hierarchy": 0,
             "power": 0,
             "progress": 0,
             "sovereignty": -10

@@ -1,6 +1,6 @@
 <head>
   <link href="https://bootswatch.com/4/minty/bootstrap.min.css" rel="stylesheet">
-  <link href="https://github.com/dessalines/8values.github.io/raw/master/style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
   <title>8 Traits</title>
   <link rel="icon" type="x-icon" href="icon.png">
   <link rel="shortcut icon" type="x-icon" href="icon.png">
@@ -70,7 +70,7 @@
 
   function setBarValue(name, value) {
     outerel = document.getElementById("bar-" + name)
-    opposite = (100 - value) + "%";
+    opposite = (100 - Number(value).toFixed(1)) + "%";
     outerel.style.width = opposite
     outerel.textContent = opposite
   }
