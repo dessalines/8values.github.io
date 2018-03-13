@@ -190,6 +190,16 @@ ideologies = [
         }
     },
     {
+        "name": "Eco-Fascism",
+        "link": "https://en.wikipedia.org/wiki/Ecofascism",
+        "stats": {
+            "hierarchy": 0,
+            "power": 100,
+            "progress": 70,
+            "sovereignty": 40
+        }
+    },
+    {
         "name": "Marxism / Leninism",
         "link": "https://en.wikipedia.org/wiki/Marxism-Leninism",
         "stats": {
@@ -197,16 +207,6 @@ ideologies = [
             "power": 100,
             "progress": 100,
             "sovereignty": 100
-        }
-    },
-    {
-        "name": "Juche",
-        "link": "https://en.wikipedia.org/wiki/Juche",
-        "stats": {
-            "hierarchy": 100,
-            "power": 100,
-            "progress": 70,
-            "sovereignty": 20
         }
     },
     {
@@ -265,7 +265,7 @@ ideologies = [
         "stats": {
             "hierarchy": 70,
             "power": 100,
-            "progress": 80,
+            "progress": 70,
             "sovereignty": 70
         }
     },    
