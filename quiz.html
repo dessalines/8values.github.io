@@ -36,6 +36,7 @@
   max_hierarchy = max_power = max_progress = max_sovereignty = 0;
   var hierarchy, power, progress, sovereignty; // User's scores
   hierarchy = power = progress = sovereignty = 0;
+  shuffleArray(questions);
   var qn = 0; // Question number
   var prev_answer = null;
   init_question();
@@ -103,5 +104,11 @@
       `&progress=${calc_score(progress,max_progress)}` +
       `&sovereignty=${calc_score(sovereignty,max_sovereignty)}`
   } 
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
   </script>
 </body>

@@ -70,7 +70,7 @@
 
   function setBarValue(name, value) {
     outerel = document.getElementById("bar-" + name)
-    opposite = (100 - Number(value).toFixed(1)) + "%";
+    opposite = (100 - parseFloat(value)).toFixed(0) + "%";
     outerel.style.width = opposite
     outerel.textContent = opposite
   }

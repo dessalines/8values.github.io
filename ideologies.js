@@ -36,7 +36,7 @@ ideologies = [
             "hierarchy": 80,
             "power": 50,
             "progress": 100,
-            "sovereignty": 10
+            "sovereignty": 20
         }
     },
     {
@@ -64,6 +64,16 @@ ideologies = [
         "link": "https://en.wikipedia.org/wiki/Anarcho-pacifism",
         "stats": {
             "hierarchy": 50,
+            "power": 0,
+            "progress": 100,
+            "sovereignty": 50
+        }
+    },
+    {
+        "name": "Pacifism",
+        "link": "https://en.wikipedia.org/wiki/Pacifism",
+        "stats": {
+            "hierarchy": 80,
             "power": 0,
             "progress": 100,
             "sovereignty": 50
@@ -193,10 +203,10 @@ ideologies = [
         "name": "Juche",
         "link": "https://en.wikipedia.org/wiki/Juche",
         "stats": {
-            "hierarchy": 70,
+            "hierarchy": 100,
             "power": 100,
-            "progress": 100,
-            "sovereignty": 60
+            "progress": 70,
+            "sovereignty": 20
         }
     },
     {
