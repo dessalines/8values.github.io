@@ -9,9 +9,4 @@
 
 https://en.wikipedia.org/wiki/List_of_political_ideologies
 
-## TODO
-
-- Allow people to see the other charts
-- Show other close ideologies
-
  
