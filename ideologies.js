@@ -190,16 +190,6 @@ ideologies = [
         }
     },
     {
-        "name": "Eco-Fascism",
-        "link": "https://en.wikipedia.org/wiki/Ecofascism",
-        "stats": {
-            "hierarchy": 0,
-            "power": 100,
-            "progress": 70,
-            "sovereignty": 40
-        }
-    },
-    {
         "name": "Marxism / Leninism",
         "link": "https://en.wikipedia.org/wiki/Marxism-Leninism",
         "stats": {
