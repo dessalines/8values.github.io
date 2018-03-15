@@ -248,15 +248,5 @@ ideologies = [
             "progress": 100,
             "sovereignty": 70
         }
-    },
-    {
-        "name": "Dengism",
-        "link": "https://en.wikipedia.org/wiki/Socialism_with_Chinese_characteristics",
-        "stats": {
-            "hierarchy": 70,
-            "power": 100,
-            "progress": 70,
-            "sovereignty": 70
-        }
-    },    
+    },  
 ];
